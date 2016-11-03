@@ -1,12 +1,12 @@
 ---
 applications:
 - path: target/MySQLApiExample.war
-  memory: 256M
+  memory: 512M
   instances: 1
   domain: mybluemix.net
   name: java-mysql-api-example
   host: java-mysql-api-${random-word}
-  disk_quota: 512M
+  disk_quota: 1024M
   buildpack: liberty-for-java
   services:
   - sample-cleardb
