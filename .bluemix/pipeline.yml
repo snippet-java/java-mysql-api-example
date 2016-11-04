@@ -22,7 +22,7 @@ stages:
     type: deployer
     script: |-
       #!/bin/bash
-      cf create-service cleardb sprak sample-cleardb
+      cf create-service cleardb spark sample-cleardb
       cf push "${CF_APP}"
       # View logs
       #cf logs "${CF_APP}" --recent
