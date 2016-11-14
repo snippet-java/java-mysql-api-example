@@ -1,7 +1,7 @@
 ---
 applications:
 - path: target/MySQLApiExample.war
-  memory: 512M
+  memory: 256M
   instances: 1
   domain: mybluemix.net
   name: java-mysql-api-example
